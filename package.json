@@ -1039,12 +1039,12 @@
 		"globby": "14.0.2",
 		"lodash": "4.17.21",
 		"minimatch": "10.0.1",
-		"semver": "7.6.3"
+		"semver": "7.7.0"
 	},
 	"devDependencies": {
 		"@types/fs-extra": "11.0.4",
 		"@types/glob": "8.1.0",
-		"@types/lodash": "4.17.14",
+		"@types/lodash": "4.17.15",
 		"@types/minimatch": "5.1.2",
 		"@types/node": "22.x",
 		"@types/semver": "7.5.8",
