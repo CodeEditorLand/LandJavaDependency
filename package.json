@@ -1036,10 +1036,10 @@
 		"await-lock": "2.2.2",
 		"fmtr": "1.1.4",
 		"fs-extra": "11.3.0",
-		"globby": "14.0.2",
+		"globby": "14.1.0",
 		"lodash": "4.17.21",
 		"minimatch": "10.0.1",
-		"semver": "7.7.0"
+		"semver": "7.7.1"
 	},
 	"devDependencies": {
 		"@types/fs-extra": "11.0.4",
