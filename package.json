@@ -1047,7 +1047,7 @@
 		"@types/lodash": "4.17.16",
 		"@types/minimatch": "5.1.2",
 		"@types/node": "22.x",
-		"@types/semver": "7.5.8",
+		"@types/semver": "7.7.0",
 		"glob": "11.0.1",
 		"ts-loader": "9.5.2"
 	},
