@@ -1,11 +1,34 @@
 {
 	"name": "@codeeditorland/java-dependency",
 	"displayName": "Project Manager for Java",
+	"version": "0.0.1",
+	"private": false,
 	"description": "%description%",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandJavaDependency#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandJavaDependency/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandJavaDependency.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./main.js",
 	"scripts": {
 		"build-server": "node scripts/buildJdtlsExt.js",
 		"compile": "tsc -p . && webpack --config webpack.config.js --mode development",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"test-ui": "tsc -p . && webpack --config webpack.config.js --mode development && node ./dist/test/ui/index.js"
 	},
 	"contributes": {
@@ -1042,6 +1065,7 @@
 		"semver": "7.7.1"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/fs-extra": "11.0.4",
 		"@types/glob": "8.1.0",
 		"@types/lodash": "4.17.16",
@@ -1050,6 +1074,9 @@
 		"@types/semver": "7.7.0",
 		"glob": "11.0.1",
 		"ts-loader": "9.5.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"icon": "logo.png",
 	"preview": false,
