@@ -25,6 +25,7 @@
 	],
 	"extends": "@playform/build/tsconfig",
 	"include": [
+		"src",
 		"src"
 	]
 }
